@@ -11,9 +11,16 @@ h1{
 section{
     display:flex;
     }
+.section1{
+    background-color:#f0ffff;
+    }
+.section2{
+    background-color:#f0f8ff;
+    }
 .half-width{
    width:50%;
    padding-left:60px;
+
    }
 .link-button{
     text-decoration:none;
@@ -26,4 +33,5 @@ section{
 .image{
     height:350px;
     width:300px;
-    border-radius:80px;}
+    border-radius:80px;
+    }
