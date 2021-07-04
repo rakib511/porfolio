@@ -5,11 +5,15 @@ body{
 h1{
     font-size:40px;
     }
+h2{
+   font-size:30px;
+   }
 .orange{
     color:orange;
     }
 section{
     display:flex;
+    margin-bottom:5px;
     }
 .section1{
     background-color:#f0ffff;
@@ -34,4 +38,27 @@ section{
     height:350px;
     width:300px;
     border-radius:80px;
+    }
+.mid{
+    margin-top:60px;}
+.section3{
+    display:flex;
+    }
+
+.experience{
+    width:40%;
+    padding:10px;
+    margin-left:5%;
+    margin-right:5%;
+    margin-bottom:50px;
+    box-shadow:10px 10px 20px 10px grey;
+    border-left:5px solid;
+    border-image:linear-gradient(purple, tomato)30;
+    border-radius:10px;
+    }
+
+.gradient{
+    border-radius:10px;
+    border-left:5px solid;
+    border-image:linear-gradient(blue, cyan)30;
     }
